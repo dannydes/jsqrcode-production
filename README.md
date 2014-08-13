@@ -18,3 +18,15 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Usage
+
+Include script like this
+``` html
+<script src="https://raw.githubusercontent.com/aray894/jsqrcode-production/master/jsqrcode.min.js"></script>
+```
+
+Set qrcode.callback to function "func(data)", where data will get the decoded information.
+
+Decode image with: qrcode.decode(url or DataURL).
+Decode from canvas with "qr-canvas" ID: qrcode.decode()
