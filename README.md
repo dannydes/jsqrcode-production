@@ -30,3 +30,7 @@ Set qrcode.callback to function "func(data)", where data will get the decoded in
 
 Decode image with: qrcode.decode(url or DataURL).
 Decode from canvas with "qr-canvas" ID: qrcode.decode()
+
+## Actual Library Site
+
+http://webqr.com/
